@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/script.index.js"></script>
+    <link rel="stylesheet" href="assets/css/style.imndex.css">
+    <title>Pedidos</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Cadastro de Pedidos</h2>
+        <input type="text" id="cliente" placeholder="Cliente">
+        <input type="number" id="mesa" placeholder="Mesa">
+        <input type="text" id="descricao" placeholder="Descrição">
+
+        <div id="div-errorMsg">
+            <p id="error-msg" class="hidden">Error</p>
+        </div>
+        <div id="div-successMsg">
+            <p id="success-msg" class="hidden">Sucesso</p>
+        </div>
+
+        <button id="botaoCadastrar" onclick="criarPedido()">Cadastrar</button>
+    </div>
+
+    <div>
+        <h2>Lista de Pedido</h2>
+        <div id="listarPedido"></div>
+    </div>
+
+    <button id="botaoEditar" class="hidden" type="button" onclick="editarPedido()">editar</button>
+
+</body>
+</html>

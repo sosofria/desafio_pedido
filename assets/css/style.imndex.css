@@ -1,0 +1,19 @@
+.hidden{
+    display: none;
+}
+
+#div-errorMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: red;
+}
+
+#div-successMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(139, 222, 44);
+}
